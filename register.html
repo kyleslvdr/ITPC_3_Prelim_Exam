@@ -39,8 +39,17 @@
             <div><input type="confirm password" placeholder="Confirm Password" class="Text"></div>
             <div><input type="First Name" placeholder="First Name" class="Text"></div>
             <div><input type="Last Name" placeholder="Last Name" class="Text"></div>
-            <div><button class="BackButton">Register</button></div>
-            <div><button class="BackButton2">Cancel</button></div>
+            <div><a href="index.html"><button class="BackButton" id="buttonRegister">Register</button></a></div>
+            
+                <div><a href="index.html"><button class="BackButton2"
+                 id="Cancelbutton">Cancel</button></a></div>
         </div>
 </body>
+<script>
+    
+    let buttonRegister = document.querySelector("#buttonRegister")
+    buttonRegister.onclick = function () {
+        alert("Registration Succesful");
+    }
+</script>
 </html>
