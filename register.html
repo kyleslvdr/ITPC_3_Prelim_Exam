@@ -2,18 +2,45 @@
 <html>
     <head>
         <title>Register Page</title>
+
+    <style>
+            .Text {
+                color: black;
+                background-color: white;
+            }
+            .Text:hover {
+            color: black;
+            background-color: burlywood;
+            }
+    
+            .BackButton {
+                color: white;
+                background-color: green;
+            }
+            .BackButton2 {
+                color: white;
+                background-color: lightcoral;
+            }
+    
+        div {
+            margin-bottom: 1rem;
+            font-size: medium;
+            text-align: center;
+            background-color: lightblue;
+        }
+    </style>
     </head>
 
     <body>
         <div style="text-align: center;">
             <h1>Register Page</h1>
-            <div><input type="user" placeholder="Username"></div>
-            <div><input type="password" placeholder="Password"></div>
-            <div><input type="confirm password" placeholder="Confirm Password"></div>
-            <div><input type="First Name" placeholder="First Name"></div>
-            <div><input type="Last Name" placeholder="Last Name"></div>
-            <div><button>Register</button></div>
-            <div><button>Cancel</button></div>
+            <div><input type="user" placeholder="Username" class="Text"></div>
+            <div><input type="password" placeholder="Password" class="Text"></div>
+            <div><input type="confirm password" placeholder="Confirm Password" class="Text"></div>
+            <div><input type="First Name" placeholder="First Name" class="Text"></div>
+            <div><input type="Last Name" placeholder="Last Name" class="Text"></div>
+            <div><button class="BackButton">Register</button></div>
+            <div><button class="BackButton2">Cancel</button></div>
         </div>
 </body>
 </html>
